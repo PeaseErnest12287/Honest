@@ -1,4 +1,4 @@
-const pingHandler = require('../lib/pingHandler');
+const pingHandler = require('../lib/pinghandler');
 
 module.exports = async (client, message) => {
     await pingHandler(client, message);
