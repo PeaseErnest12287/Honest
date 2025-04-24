@@ -1,0 +1,36 @@
+{
+  "name": "pease",
+  "version": "1.0.0",
+  "description": "an unoficia whatsapp bot",
+  "keywords": [
+    "bot",
+    "ernest"
+  ],
+  "homepage": "https://github.com/PeaseErnest12287/pease#readme",
+  "bugs": {
+    "url": "https://github.com/PeaseErnest12287/pease/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeaseErnest12287/pease.git"
+  },
+  "license": "ISC",
+  "author": "Pease Ernest",
+  "type": "commonjs",
+  "main": "ernest.js",
+  "scripts": {
+    "start": "node ernestexecute.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "axios": "^1.8.4",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "moment-timezone": "^0.5.48",
+    "os": "^0.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.27.0"
+  }
+}
